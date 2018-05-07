@@ -15,13 +15,24 @@ message("wage mean: ", mean(wage))
 message("wage minimum: ", min(wage))
 message("wage maximum: ", max(wage))
 message("wage median: ", median(wage))
+message("wage date is skewed")
 
 # print("c. Plot the WAGE vs. EDUCATION. Comment briefly on any observed trends")
 plot(wage, education)
-message("Comment: ")
-# print("d. Create box plots of the WAGE vs. OCCUPATION and WAGE vs. SEX. What are your observations?")
+message("Comment: From the plotted graph, one may conclude 2 points. First, high education level does not translate to high wage. Second, people with high education have better opportunity to have a high wage.")
 
-message("Observation: ")
-# print("e. Excluding WAGE, which two variables have the highest correlation?")
+
+# print("d. Create box plots of the WAGE vs. OCCUPATION and WAGE vs. SEX. What are your observations?")
+occupation = cps_data[,9]
+sex = cps_data[,3]
+plot(wage, occupation)
+plot(wage, sex)
+message("WAGE vs. OCCUPATION: Two kinds of occupation, management and professional have more even distribution of wage than other occupations.")
+message("WAGE vs. SEX: Male has better opportunity to get a higher wage than a female")
+
+
+message("e. Excluding WAGE, which two variables have the highest correlation?")
+
+
 
 # lapply(mget(ls()), dim)

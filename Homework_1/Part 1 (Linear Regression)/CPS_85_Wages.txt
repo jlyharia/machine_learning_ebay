@@ -21,7 +21,7 @@ Variable names in order from left to right:
 	WAGE: Wage (dollars per hour).
 	AGE: Age (years).
 	RACE: Race (1=Other, 2=Hispanic, 3=White).
-	OCCUPATION: Occupational category (1=Management, 		2=Sales, 3=Clerical, 4=Service, 5=Professional, 6=Other).
+	OCCUPATION: Occupational category (1=Management, 2=Sales, 3=Clerical, 4=Service, 5=Professional, 6=Other).
 	SECTOR: Sector (0=Other, 1=Manufacturing, 2=Construction).
 	MARR: Marital Status (0=Unmarried,  1=Married)
 
