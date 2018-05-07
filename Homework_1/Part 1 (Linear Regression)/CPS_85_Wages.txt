@@ -14,10 +14,10 @@ Description:  The datafile contains 534 observations on 11 variables sampled fro
 
 Variable names in order from left to right:
 	EDUCATION: Number of years of education.
-	SOUTH: Indicator variable for Southern Region (1=Person lives in 		South, 0=Person lives elsewhere).
+	SOUTH: Indicator variable for Southern Region (1=Person lives in South, 0=Person lives elsewhere).
 	SEX: Indicator variable for sex (1=Female, 0=Male).
 	EXPERIENCE: Number of years of work experience.
-	UNION: Indicator variable for union membership (1=Union member, 		0=Not union member).
+	UNION: Indicator variable for union membership (1=Union member, 0=Not union member).
 	WAGE: Wage (dollars per hour).
 	AGE: Age (years).
 	RACE: Race (1=Other, 2=Hispanic, 3=White).
